@@ -1,0 +1,29 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	padding: 0px;
+}
+
+img #top-nav {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	z-index: 10;
+}
+
+
+#top-nav {
+	height: 80px;
+	z-index: 100;
+	position: sticky;
+	top: 0px;
+	background-image: url('../img/top-nav@2x.png');
+	background-position: center center;
+	background-size: cover;
+	border-bottom: 1px solid #F0F0F0;
+}
